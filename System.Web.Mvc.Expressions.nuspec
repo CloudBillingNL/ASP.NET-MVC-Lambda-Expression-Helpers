@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>System.Web.Mvc.Expressions</id>
+        <version>1.0.7</version>
+        <title>ASP.NET MVC Lambda Expression Helpers</title>
+        <authors>Ivaylo Kenov,Vladislav Karamfilov</authors>
+        <licenseUrl>https://github.com/ivaylokenov/ASP.NET-MVC-Lambda-Expression-Helpers/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/ivaylokenov/ASP.NET-MVC-Lambda-Expression-Helpers</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/ivaylokenov/ASP.NET-MVC-Lambda-Expression-Helpers/master/nuget-logo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Extension methods allowing using Lambda Expressions instead of magic strings in your ASP.NET MVC 5 application.
+
+Currently supported:
+- RedirectToAction(c =&gt; c.Index())
+- RedirectToActionPermanent(c =&gt; c.Index())
+- AddModelError(m =&gt; m.Property, "Invalid property")
+- Html.ActionLink(c =&gt; c.Index())
+- Html.BeginForm(c =&gt; c.Index())
+- Html.RenderAction(c =&gt; c.Index())
+- Html.Action(c =&gt; c.Index())
+- Url.Action(c =&gt; c.Index())
+- Ajax.ActionLink(c =&gt; c.Index())
+- Ajax.BeginForm(c =&gt; c.Index())</description>
+        <summary>Extension methods allowing using Lambda Expressions instead of magic strings in your ASP.NET MVC 5 application.</summary>
+        <copyright>2015-2016 Ivaylo Kenov</copyright>
+        <language>en-US</language>
+        <tags>asp net mvc expression helpers</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.Mvc" version="[5.2,5.3)" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="System.Web.Mvc.Expressions\bin\Release\System.Web.Mvc.Expressions.dll" target="lib" />
+    </files>
+</package>

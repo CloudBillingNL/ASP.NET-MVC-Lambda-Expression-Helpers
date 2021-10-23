@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>System.Web.Mvc.Expressions</id>
-        <version>1.0.9</version>
+        <version>1.0.10</version>
         <title>ASP.NET MVC Lambda Expression Helpers</title>
         <authors>Ivaylo Kenov,Vladislav Karamfilov</authors>
         <licenseUrl>https://github.com/ivaylokenov/ASP.NET-MVC-Lambda-Expression-Helpers/blob/master/LICENSE</licenseUrl>
